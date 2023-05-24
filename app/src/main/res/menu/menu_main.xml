@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.xsens.dot.android.lslstreamer.views.MainActivity">
+
+    <item
+        android:id="@+id/action_streaming"
+        android:orderInCategory="1"
+        android:title="@string/menu_start_streaming"
+        android:icon="@drawable/ic_baseline_play_arrow_24"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_reset_heading"
+        android:orderInCategory="3"
+        android:title="@string/menu_reset_heading"
+        android:icon="@drawable/ic_baseline_restart_alt_24"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_measure"
+        android:orderInCategory="2"
+        android:title="@string/menu_measure"
+        android:icon="@drawable/ic_baseline_sensors_24"
+        app:showAsAction="ifRoom" />
+
+</menu>
