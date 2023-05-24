@@ -13,6 +13,9 @@
 .externalNativeBuild
 .cxx
 
+liblsl/
+liblsl-Java/
+
 
 # Gradle files
 .gradle/
